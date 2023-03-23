@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RestController
 public class HelloController {
 
-	@GetMapping("/")
+	@RequestMapping("/")
 	public String index() {
 		return "welcome tanzu and TAP";
 	}
